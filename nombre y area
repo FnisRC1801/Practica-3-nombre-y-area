@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package operaciones;
+
+/**
+ *
+ * @author labcca
+ */
+public class NombreArea {
+    
+    public static void main(String[] args) {
+        
+         String nombre = "Estefania Reynoso Colin";
+         int base =14 ;
+         int altura = 2;
+         
+         int areaRec = base*altura;
+         
+         double baseA = 2.4;
+         double alturaB =6.5;
+    
+         double areaRecd = baseA*alturaB;
+    
+         System.out.println("Mi nombre es "+nombre);
+         System.out.println("El area en enteros del rectangulo es: "+areaRec);
+         System.out.println("El area del rectangulo en decimal es: "+areaRecd);
+    }
+                 
+                 
+    }
+    
+
